@@ -1,0 +1,22 @@
+
+{
+    "name": "LaTeX Dev Container",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {
+      "latex-workshop.latex.autoBuild.run": "onFileChange",
+      "latex-workshop.view.pdf.viewer": "tab",
+      "latex-workshop.latex.outDir": "./build"
+    },
+    "extensions": [
+      "James-Yu.latex-workshop",
+      "streetsidesoftware.code-spell-checker",
+      "shardulm94.trailing-spaces",
+    ],
+    "postCreateCommand": "echo 'LaTeX Dev Container Ready!'",
+    "mounts": [
+      "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ],
+    "workspaceFolder": "/workspace"
+}

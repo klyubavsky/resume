@@ -1,0 +1,13 @@
+# Ignore LaTeX auxiliary and temporary files
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Ignore build directory if used
+build/
