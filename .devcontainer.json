@@ -8,6 +8,10 @@
       "latex-workshop.latex.autoBuild.run": "onFileChange",
       "latex-workshop.view.pdf.viewer": "tab",
       "latex-workshop.latex.outDir": "./build",
+      "latex-workshop.message.log.show": true,
+      "latex-workshop.message.warning.show": true,
+      "latex-workshop.message.error.show": true,
+      "latex-workshop.linting.chktex.enabled": true,
       "latex-workshop.latex.recipes": [
         {
           "name": "xelatex",

@@ -7,5 +7,7 @@ RUN apt-get update && apt-get install -y \
     python3 \
     texlive-xetex \
     texlive-latex-extra \
+    texlive-fonts-recommended \
+    chktex \
     latexmk \
     && apt-get clean
